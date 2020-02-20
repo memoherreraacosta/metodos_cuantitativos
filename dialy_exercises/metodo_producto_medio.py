@@ -7,8 +7,7 @@ def producto_medio(n, m):
     if m == 0:
        return
     else:
-       mul = n*m
-       str_mul = str(mul)
+       str_mul = str(n*m)
        try:
            med_mul = str(int(str_mul[1:len(str_mul) - 1]))
        except ValueError:
